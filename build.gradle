@@ -12,6 +12,8 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'spring-boot'
 apply plugin: 'war'
+apply plugin: 'checkstyle'
+apply plugin: 'findbugs'
 
 war {
     baseName = 'myapp'
